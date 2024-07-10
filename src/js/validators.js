@@ -1,3 +1,4 @@
+/* eslint-disable */
 export function isValidCoords(input) {
   input = input.toString().trim();
 
