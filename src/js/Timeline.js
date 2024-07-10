@@ -1,7 +1,7 @@
 import { Post } from "./Post";
 import { getFormattedDate } from "./getFormattedDate";
 import { findLocation } from "./coordinates";
-import { ModalEnterGeolocation } from "./modalEnterGeolocation";
+import { ModalEnterGeolocation } from "./ModalEnterGeolocation";
 import { Audio } from "./Audio";
 
 export class Timeline {
