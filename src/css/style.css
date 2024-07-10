@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-color: #dbdede;
+  padding: 50px;
+}
+
+.timeline-container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 500px;
+  min-height: 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  background-color: #f9f3f3;
+  border-radius: 10px;
+}
+
+.line {
+  margin: 10px 10px -1px;
+  width: 20px;
+  min-height: 100%;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.history {
+  width: 80%;
+}
+
+form {
+  width: 100%;
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 80px 4px 10px;
+  resize: none;
+}
+
+textarea:focus {
+  height: 200px;
+  outline: none;
+}
+
+.audio-btn,
+.video-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.video-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url(../img/camera-icon.png) center;
+}
+
+.audio-btn {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background: url(../img/microfon-icon.png) center;
+}
+
+.post-box {
+  position: relative;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.circle {
+  position: absolute;
+  top: 20px;
+  left: -33px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.date {
+  font-size: 14px;
+  text-align: right;
+}
+
+.eye-btn {
+  background: url(../img/eye-with-shine-pupil_18258.png) center no-repeat;
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.modal {
+  position: absolute;
+  top: 200px;
+  left: 35%;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.form-body,
+.modal-header,
+label {
+  margin: 10px;
+}
+input {
+  margin: 10px;
+  width: 100%;
+}
+
+.form-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel-btn {
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
+
+.ok-btn {
+  border-radius: 10px;
+  width: 40px;
+  height: 30px;
+}
+
+.audio-box {
+  position: absolute;
+  width: 80px;
+  display: flex;
+  top: 10px;
+  right: 50px;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
