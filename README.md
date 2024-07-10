@@ -1,5 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/3re0ux5abfw31t0r?svg=true)](https://ci.appveyor.com/project/lunalexandra/animation)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/5o4tuh8gw4pqwi5y?svg=true)](https://ci.appveyor.com/project/lunalexandra/hw-media)
 
 
 
